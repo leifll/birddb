@@ -1,0 +1,203 @@
+Grågås;gäss
+Kanadagås;gäss
+Vitkindad gås;gäss
+Skedand;änder
+Fisktärna;måsar
+Fiskmås;måsar
+Skrattmås;måsar
+Gråtrut;måsar
+Havstrut;måsar
+Silltrut;måsar
+Gräsand;änder
+Sångsvan;svanar
+Tofsvipa;övriga vadare
+Brun kärrhök;hökar
+Sothöna;rallar
+Ringduva;duvor
+Kråka;kråkfåglar
+Skata;kråkfåglar
+Björktrast;trastar
+Koltrast;trastar
+Talgoxe;mesar
+Bofink;finkar
+Pilfink;finkar
+Nötskrika;kråkfåglar
+Lövsångare;sångare
+Havsörn;örnar
+Spillkråka;hackspettar
+Tornseglare;seglare
+Fiskgjuse;hökar
+Gråhäger;hägrar
+Fasan;höns
+Trana;tranor
+Tamduva;duvor
+Sädesärla;ärlor
+Gråsparv;sparvar
+Kaja;kråkfåglar
+Sävsångare;sångare
+Skäggdopping;doppingar
+Svarthakedopping;doppingar
+Ladusvala;svalor
+Storlom;lommar
+Storskrake;änder
+Stare;övriga tättingar
+Hussvala;svalor
+Större hackspett;hackspettar
+Knölsvan;svanar
+Nötväcka;övriga tättingar
+Ormvråk;vråkar
+Gulärla;ärlor
+Tornfalk;falkar
+Blåmes;mesar
+Steglits;finkar
+Grå flugsnappare;flugsnappare
+Entita;mesar
+Skogsduva;duvor
+Storskarv;skarvar
+Buskskvätta;flugsnappare
+Grönsiska;finkar
+Stenknäck;finkar
+Tjäder;höns
+Domherre;finkar
+Vigg;änder
+Knipa;änder
+Sidensvans;övriga tättingar
+Grönfink;finkar
+Strömstare;övriga tättingar
+Sävsparv;sparvar
+Ängspiplärka;piplärkor
+Korp;kråkfåglar
+Rödhake;flugsnappare
+Gulsparv;sparvar
+Trädkrypare;övriga tättingar
+Bläsand;änder
+Kricka;änder
+Sånglärka;lärkor
+Svarthätta;sångare
+Forsärla;ärlor
+Svartvit flugsnappare;flugsnappare
+Gröngöling;hackspettar
+Gransångare;sångare
+Ärtsångare;sångare
+Kornknarr;rallar
+Brushane;övriga vadare
+Sparvuggla;ugglor
+Talltita;mesar
+Stjärtmes;mesar
+Vattenrall;rallar
+Taltrast;trastar
+Härfågel;praktfåglar
+Rödstjärt;flugsnappare
+Hämpling;finkar
+Gravand;änder
+Rödspov;spovar
+Ljungpipare;pipare
+Råka;kråkfåglar
+Strandskata;övriga vadare
+Halsbandsflugsnappare;flugsnappare
+Ejder;änder
+Silvertärna;måsar
+Brunand;änder
+Rörhöna;rallar
+Småskrake;änder
+Snatterand;änder
+Trädgårdssångare;sångare
+Näktergal;flugsnappare
+Enkelbeckasin;beckasiner
+Svarttärna;måsar
+Dvärgmås;måsar
+Rödbena;snäppor
+Törnskata;övriga tättingar
+Årta;änder
+Mindre strandpipare;pipare
+Dammsnäppa;snäppor
+Rördrom;hägrar
+Gärdsmyg;övriga tättingar
+Vit stork;storkar
+Trastsångare;sångare
+Turkduva;duvor
+Kärrsångare;sångare
+Rörsångare;sångare
+Dubbeltrast;trastar
+Järnsparv;sparvar
+Svartmes;mesar
+Nötkråka;kråkfåglar
+Svart rödstjärt;flugsnappare
+Drillsnäppa;snäppor
+Ägretthäger;hägrar
+Skräntärna;måsar
+Spovsnäppa;snäppor
+Svartsnäppa;snäppor
+Myrspov;spovar
+Kärrsnäppa;snäppor
+Gluttsnäppa;snäppor
+Mosnäppa;snäppor
+Grönbena;snäppor
+Småfläckig sumphöna;rallar
+Större strandpipare;pipare
+Kustsnäppa;snäppor
+Duvhök;hökar
+Kungsfågel;övriga tättingar
+Blåhake;flugsnappare
+Kattuggla;ugglor
+Smådopping;doppingar
+Sädgås;gäss
+Bläsgås;gäss
+Fjällgås;gäss
+Gråsiska;finkar
+Spetsbergsgås;gäss
+Kungsfiskare;praktfåglar
+Hökuggla;ugglor
+Sparvhök;hökar
+Skäggmes;mesar
+Skäggtärna;måsar
+Mandarinand;änder
+Tofsmes;mesar
+Fjällvråk;vråkar
+Kaspisk trut;måsar
+Salskrake;änder
+Snösparv;sparvar
+Rapphöna;höns
+Mindre sångsvan;svanar
+Varfågel;övriga tättingar
+Stjärtand;änder
+Sjöorre;änder
+Skogssnäppa;snäppor
+Storspov;spovar
+Orre;höns
+Rödvingetrast;trastar
+Småsnäppa;snäppor
+Smålom;lommar
+Lärkfalk;falkar
+Gök;gökar
+Göktyta;hackspettar
+Grönsångare;sångare
+Bergand;änder
+Bergfink;finkar
+Småspov;spovar
+Lappsparv;sparvar
+Dalripa;höns
+Morkulla;snäppor
+Mindre korsnäbb;finkar
+Större korsnäbb;finkar
+Svärta;änder
+Kustpipare;pipare
+Pilgrimsfalk;falkar
+Kungsörn;örnar
+Jaktfalk;falkar
+Skärfläcka;övriga vadare
+Alfågel;änder
+Stenskvätta;flugsnappare
+Röd glada;hökar
+Skärsnäppa;snäppor
+Gråhakedopping;doppingar
+Roskarl;snäppor
+Tobisgrissla;grisslor
+Stäpphök;hökar
+Busksångare;sångare
+Törnsångare;sångare
+Backsvala;svalor
+Styltlöpare;övriga vadare
+Biätare;praktfåglar
+Kentsk tärna;måsar
+Trädpiplärka;piplärkor
