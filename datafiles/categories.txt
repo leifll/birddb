@@ -19,7 +19,8 @@ skärrfåglar
 storkar
 stormfåglar
 sulor
-tranfåglar
+tranor
+rallar
 trappfåglar
 tättingar
 sångare
@@ -44,5 +45,7 @@ flugsnappare
 piplärkor
 kråkfåglar
 skvättor
-törnskator
 övriga tättingar
+hägrar
+ärlor
+skarvar

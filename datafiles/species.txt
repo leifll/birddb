@@ -2,12 +2,12 @@ Grågås;gäss
 Kanadagås;gäss
 Vitkindad gås;gäss
 Skedand;änder
-Fisktärna;måsar
+Fisktärna;tärnor
 Fiskmås;måsar
 Skrattmås;måsar
-Gråtrut;måsar
-Havstrut;måsar
-Silltrut;måsar
+Gråtrut;trutar
+Havstrut;trutar
+Silltrut;trutar
 Gräsand;änder
 Sångsvan;svanar
 Tofsvipa;övriga vadare
@@ -96,7 +96,7 @@ Råka;kråkfåglar
 Strandskata;övriga vadare
 Halsbandsflugsnappare;flugsnappare
 Ejder;änder
-Silvertärna;måsar
+Silvertärna;tärnor
 Brunand;änder
 Rörhöna;rallar
 Småskrake;änder
@@ -104,7 +104,7 @@ Snatterand;änder
 Trädgårdssångare;sångare
 Näktergal;flugsnappare
 Enkelbeckasin;beckasiner
-Svarttärna;måsar
+Svarttärna;tärnor
 Dvärgmås;måsar
 Rödbena;snäppor
 Törnskata;övriga tättingar
@@ -199,5 +199,5 @@ Törnsångare;sångare
 Backsvala;svalor
 Styltlöpare;övriga vadare
 Biätare;praktfåglar
-Kentsk tärna;måsar
+Kentsk tärna;tärnor
 Trädpiplärka;piplärkor
