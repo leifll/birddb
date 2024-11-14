@@ -37,12 +37,10 @@ CREATE TABLE photo (
  photo_id INT GENERATED ALWAYS AS IDENTITY,
  file_path VARCHAR(1000) UNIQUE,
  image_data BYTEA UNIQUE,
- time TIMESTAMP(0),
- location_id INT
+ time TIMESTAMP(0)
 );
 
 ALTER TABLE photo ADD PRIMARY KEY (photo_id);
-ALTER TABLE photo ADD FOREIGN KEY (location_id) REFERENCES location;
 
 --
 -- The "printout" table.
@@ -94,5 +92,3 @@ ALTER TABLE observation ADD PRIMARY KEY (observation_id);
 ALTER TABLE observation ADD FOREIGN KEY (location_id) REFERENCES location;
 ALTER TABLE observation ADD FOREIGN KEY (species_id) REFERENCES species;
 ALTER TABLE observation ADD FOREIGN KEY (photo_id) REFERENCES photo ON DELETE SET NULL;
-
-
