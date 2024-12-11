@@ -1,107 +1,102 @@
-30m-kärret
-Ågesta
-Albrynna kalkbrott
-Ammarnäs 
-Angarn
-Ängskar
-Årstabrons norra fäste
-Åsebol
-Asköviken
-Åsön
-Åstön
-Bällstaberg
-Banvallen
-Barkarby
-Beijershamn
-Berlins fågelsjö
-Boholmen
-Broängarna 
-Brostugan
-Davtajavrrie
-Fågelsundet
-Fellingsbro
-Fibbetorpsskogen
-Fyrisårike
-Fysingen 
-Garphyttan
-Gåseborg
-Gimelton
-Grimstadam
-Hågadalen
-Håkansbodaberget
-Hemma 
-Hjälsta
-Hjälstaviken 
-Hönö
-Hornborgasjön 
-Hundudden
-Isbladskärret 
-Johannisbergs våtmark
-Kindla
-Kista
-Knuthöjdsmossen
-Kopparberg 
-Kvicksund
-Kvismaren
-Kyrksjön
-Landsberga (gårdsbutiken)
-Ledskär
-Löa
-Łomża
-Lovön
-Lövstaslätten
-Maglarps sandtag
-Mellan hoting och sundsvall
-Mörbylånga 
-Nockeby
-Norr mälarstrand
-Notholmen
-Nyberget
-Nyfors
-Ölands södra udde
-Orrspelsmyren tiveden
-Oset
-Östernäs brygga
-Ottenby
-Ottenby fågelstation 
-Pershyttan
-Puttes båt
-Råcksta träsk
-Råstasjön
-Rödskar
-Rosersberg 
-Rydaslätten
-Säby gård
-Säbysjön
-Sandemar
-Siggeboda
-Siggebohyttan
-Skeppsbron
-Skinnskatteberg 
-Slagsta
-Spegeldammen
-Stäket
-Stenåsa
-Strba tatranska
-Strbske pleso
-Strömbron
-Strömmen
-Svartåmynningen
-Svensbodaberget
-Tåkern
-Tanto
-Tiveden
-Tjulträsk
-Torö
-Traneröds mosse
-Tyresö slott
-Tysslingen
-Tysslingen 
-Ukta
-Uskavi 
-Uttran
-Utvälinge
-Vallentuna
-Vetlanda
-Vombs ängar
-Zakopane
+30m-kärret;Järvafältet
+Ågesta;Stockholm
+Albrynna kalkbrott;Öland
+Ammarnäs;Lappland 
+Angarn;Stockholm
+Ängskar;Uppland
+Årstabrons norra fäste;Stockholm
+Åsebol;Tiveden
+Asköviken;Västerås
+Åstön;Jämtland
+Bällstaberg;Vallentuna
+Banvallen;Hemma
+Barkarby;Järfälla
+Beijershamn;Öland
+Berlins fågelsjö;Gävle
+Boholmen;Ledskär
+Broängarna;Upplands Bro
+Brostugan;Kärsön, Ekerö
+Davtajavrrie;Ammarnäs, Lappland
+Fågelsundet;Tierp
+Fellingsbro;Västmanland
+Fibbetorpsskogen;Nora, Västmanland
+Fyrisårike;Uppsala
+Fysingen, Rosersberg
+Garphyttan;Närke
+Gåseborg;Järfälla
+Gimelton;Sorsele
+Grimsta;Vällingby
+Hågadalen;Uppsala
+Håkansbodaberget;Västmanland
+Hemma;Hemma
+Hjälstaviken;Håbo 
+Hönö;Göteborg
+Hornborgasjön;Västergötland 
+Hundudden;Djurgården
+Isbladskärret;Djurgården
+Johannisbergs våtmark;Västerås
+Kindla;Närke
+Kista;Järvafältet
+Knuthöjdsmossen;Närke
+Kopparberg;Västmanland
+Kvicksund;Västmanland
+Kvismaren;Närke
+Kyrksjön;Åkeshov
+Landsberga (gårdsbutiken);Enköping
+Ledskär;Uppland
+Löa;Västmanland
+Łomża;Łomża County, Polen
+Lovön;Ekerö
+Lövstaslätten;Enköping
+Maglarps sandtag;Skåne
+Mellan hoting och sundsvall;Ångermanland
+Mörbylånga;Öland
+Nockeby;Stockholm
+Norr mälarstrand;Stockholm
+Notholmen;Tyresö slott, Tyresö
+Nyberget;Grangärde, Ludvika
+Nyfors;Tyresta
+Ölands södra udde;Öland
+Orrspelsmyren tiveden;Tiveden
+Oset;Örebro
+Östernäs brygga;Rådmansö
+Ottenby;Öland
+Ottenby fågelstation;Öland
+Pershyttan;Nora, Västmanland
+Puttes båt;Täby
+Råcksta träsk;Grimsta, Stockholm
+Råstasjön;Solna
+Rödskar;Tierp
+Rosersberg;Sigtuna 
+Rydaslätten;Enköping
+Säby gård;Järvafältet
+Säbysjön;Järvafältet
+Sandemar;Haninge
+Siggeboda;Usakvi, Närke
+Siggebohyttan;Uskavi, Närke
+Skeppsbron;Stockholm
+Skinnskatteberg;Västmanland
+Slagsta;Botkyrka
+Spegeldammen;Stora skuggan, Stockholm
+Stäket;Järfälla
+Stenåsa;Öland
+Strba tatranska;Prešov, Slovakien
+Strbske pleso;Prešov, Slovakien
+Strömbron;Stockholm
+Strömmen;Stockholm
+Svartåmynningen;Linköping
+Svensbodaberget;Garphyttan, Närke
+Tåkern;Östergötland
+Tiveden;Tiveden
+Tjulträsk;Ammarnäs, Lappland
+Torö;Nynäshamn
+Traneröds mosse;Skåne
+Tyresö slott;Tyresö
+Tysslingen;Närke
+Ukta;Pisz, Polen
+Uskavi;Västmanland
+Uttran;Botkyrka
+Utvälinge;Skåne
+Vetlanda;Småland
+Vombs ängar;Skåne
+Zakopane;Podhale, Polen
