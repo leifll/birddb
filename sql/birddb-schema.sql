@@ -24,7 +24,7 @@ ALTER TABLE region ADD PRIMARY KEY (region_id);
 CREATE TABLE location (
  location_id INT GENERATED ALWAYS AS IDENTITY,
  name VARCHAR(500) NOT NULL,
- region_id INT,
+ region_id INT NOT NULL,
  UNIQUE(name, region_id)
 );
 
