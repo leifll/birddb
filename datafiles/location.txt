@@ -21,7 +21,7 @@ Fågelsundet;Tierp
 Fellingsbro;Västmanland
 Fibbetorpsskogen;Nora, Västmanland
 Fyrisårike;Uppsala
-Fysingen, Rosersberg
+Fysingen; Rosersberg
 Garphyttan;Närke
 Gåseborg;Järfälla
 Gimelton;Sorsele
