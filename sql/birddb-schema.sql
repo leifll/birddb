@@ -85,7 +85,8 @@ CREATE TABLE observation (
  date DATE,
  location_id INT,
  species_id INT,
- photo_id INT
+ photo_id INT,
+ "comment" VARCHAR(2000)
 );
 
 ALTER TABLE observation ADD PRIMARY KEY (observation_id);
