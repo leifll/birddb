@@ -21,7 +21,7 @@ with psycopg.connect("dbname=birddb user=postgres host=localhost password=postgr
             location = tokens[0]
             region = tokens[1][0:-1]
             cursor.execute("""INSERT INTO location ("name", "region_id") VALUES (%s, 
-                              (select region_id from region where "name" = %s))""", 
+                              (SELECT region_id FROM region WHERE "name" = %s))""", 
                               (location, region,))
         fill_table('location', cursor, insert_location_row)
 
@@ -34,7 +34,7 @@ with psycopg.connect("dbname=birddb user=postgres host=localhost password=postgr
             species = tokens[0]
             category = tokens[1][0:-1]
             cursor.execute("""INSERT INTO species ("name", "category_id") VALUES (%s, 
-                              (select category_id from category where "name" = %s))""",
+                              (SELECT category_id FROM category WHERE "name" = %s))""",
                               (species, category,))
         fill_table('species', cursor, insert_species_row)
 
