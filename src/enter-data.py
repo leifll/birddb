@@ -13,14 +13,13 @@ with psycopg.connect("dbname=birddb user=postgres host=localhost password=postgr
         print('connected')
 
         def insert_region_row(cursor, line):
-            cursor.execute("""INSERT INTO category ("name") VALUES (%s)""", (line[0:-1],))
+            cursor.execute("""INSERT INTO region ("name") VALUES (%s)""", (line[0:-1],))
         fill_table('region', cursor, insert_region_row)
 
         def insert_location_row(cursor, line):
             tokens = line.split(';')
             location = tokens[0]
             region = tokens[1][0:-1]
-            print(region)
             cursor.execute("""INSERT INTO location ("name", "region_id") VALUES (%s, 
                               (select region_id from region where "name" = %s))""", 
                               (location, region,))

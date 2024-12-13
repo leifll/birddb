@@ -21,7 +21,7 @@ Fågelsundet;Tierp
 Fellingsbro;Västmanland
 Fibbetorpsskogen;Nora, Västmanland
 Fyrisårike;Uppsala
-Fysingen; Rosersberg
+Fysingen;Rosersberg
 Garphyttan;Närke
 Gåseborg;Järfälla
 Gimelton;Sorsele
@@ -72,7 +72,7 @@ Rydaslätten;Enköping
 Säby gård;Järvafältet
 Säbysjön;Järvafältet
 Sandemar;Haninge
-Siggeboda;Usakvi, Närke
+Siggeboda;Uskavi, Närke
 Siggebohyttan;Uskavi, Närke
 Skeppsbron;Stockholm
 Skinnskatteberg;Västmanland
