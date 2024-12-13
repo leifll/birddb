@@ -1,5 +1,6 @@
 import os
 import psycopg
+import datetime
 
 def fill_table(tbl_name, cursor, insert_row):
     with open('datafiles/' + tbl_name + '.txt', 'r') as data_file:
@@ -8,7 +9,8 @@ def fill_table(tbl_name, cursor, insert_row):
                 insert_row(cursor, line)
     print('inserted ' + tbl_name)
 
-with psycopg.connect("dbname=birddb user=postgres host=localhost password=postgres") as connection:
+connection =  psycopg.connect("dbname=birddb user=postgres host=localhost password=postgres")
+with connection:
     with connection.cursor() as cursor:
         print('connected')
 
@@ -38,6 +40,11 @@ with psycopg.connect("dbname=birddb user=postgres host=localhost password=postgr
                               (species, category,))
         fill_table('species', cursor, insert_species_row)
 
-    connection.commit()
+        def insert_book_row(cursor, line):
+            date = datetime.datetime.strptime(line[0:-1], '%Y-%m-%d').date()
+            cursor.execute("""INSERT INTO book ("date") VALUES (%s)""", (date,))
+        fill_table('book', cursor, insert_book_row)
+
+connection.close()
 
 print('done inserting')
