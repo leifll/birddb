@@ -1,0 +1,1 @@
+photo-path-prefix;The part of the file path that's common to all photos, starting from ~.;pCloudDrive/Photos/faglar

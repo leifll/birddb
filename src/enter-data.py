@@ -14,6 +14,16 @@ with connection:
     with connection.cursor() as cursor:
         print('connected')
 
+        def insert_config_row(cursor, line):
+            tokens = line.split(';')
+            name = tokens[0]
+            description = tokens[1]
+            value = tokens[2][0:-1]
+            cursor.execute("""INSERT INTO config ("name", "description", "value") 
+                              VALUES (%s, %s, %s)""",
+                           (name, description, value,))
+        fill_table('config', cursor, insert_config_row)
+
         def insert_region_row(cursor, line):
             cursor.execute("""INSERT INTO region ("name") VALUES (%s)""", (line[0:-1],))
         fill_table('region', cursor, insert_region_row)

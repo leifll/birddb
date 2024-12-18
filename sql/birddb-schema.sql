@@ -1,4 +1,16 @@
 --
+-- The "config" table.
+--
+CREATE TABLE config (
+  config_id INT GENERATED ALWAYS AS IDENTITY,
+  name VARCHAR(500),
+  description VARCHAR(2000),
+  value VARCHAR(500)
+);
+
+ALTER TABLE config ADD PRIMARY KEY (config_id);
+
+--
 -- The "book" table.
 --
 CREATE TABLE book (
