@@ -3,7 +3,7 @@
 Albrynna kalkbrott;Öland
 Ammarnäs;Lappland 
 Angarn;Stockholm
-Ängskar;Uppland
+Ängskär;Uppland
 Årstabrons norra fäste;Stockholm
 Åsebol;Tiveden
 Asköviken;Västerås
@@ -66,7 +66,7 @@ Pershyttan;Nora, Västmanland
 Puttes båt;Täby
 Råcksta träsk;Grimsta, Stockholm
 Råstasjön;Solna
-Rödskar;Tierp
+Rödskär;Tierp
 Rosersberg;Sigtuna 
 Rydaslätten;Enköping
 Säby gård;Järvafältet
