@@ -17,6 +17,7 @@ Boholmen;Ledskär
 Broängarna;Upplands Bro
 Brostugan;Kärsön, Ekerö
 Davtajavrrie;Ammarnäs, Lappland
+Djurgården;Djurgården
 Fågelsundet;Tierp
 Fellingsbro;Västmanland
 Fibbetorpsskogen;Nora, Västmanland
@@ -24,6 +25,7 @@ Fyrisårike;Uppsala
 Fysingen;Rosersberg
 Garphyttan;Närke
 Gåseborg;Järfälla
+Gdansk;Polen
 Gimelton;Sorsele
 Grimsta;Vällingby
 Hågadalen;Uppsala
@@ -65,6 +67,7 @@ Ottenby fågelstation;Öland
 Pershyttan;Nora, Västmanland
 Puttes båt;Täby
 Råcksta träsk;Grimsta, Stockholm
+Rådmansö;Norrtälje
 Råstasjön;Solna
 Rödskär;Tierp
 Rosersberg;Sigtuna 
@@ -86,9 +89,13 @@ Strömbron;Stockholm
 Strömmen;Stockholm
 Svartåmynningen;Linköping
 Svensbodaberget;Garphyttan, Närke
+Sörskogen;Huddinge
 Tåkern;Östergötland
 Tiveden;Tiveden
 Tjulträsk;Ammarnäs, Lappland
+Tomten;Hemma
+Inifrån;Hemma
+Banvallen;Hemma
 Torö;Nynäshamn
 Traneröds mosse;Skåne
 Tyresö slott;Tyresö
@@ -100,3 +107,4 @@ Utvälinge;Skåne
 Vetlanda;Småland
 Vombs ängar;Skåne
 Zakopane;Podhale, Polen
+Ågesta;Stockholm
