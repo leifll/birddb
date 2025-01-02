@@ -21,7 +21,7 @@ Djurgården;Djurgården
 Fågelsundet;Tierp
 Fellingsbro;Västmanland
 Fibbetorpsskogen;Nora, Västmanland
-Fyrisårike;Uppsala
+Årike Fyris;Uppsala
 Fysingen;Rosersberg
 Garphyttan;Närke
 Gåseborg;Järfälla
@@ -33,10 +33,12 @@ Håkansbodaberget;Västmanland
 Hemma;Hemma
 Hjälstaviken;Håbo 
 Hönö;Göteborg
-Hornborgasjön;Västergötland 
+Hornborgasjön;Västergötland
+Hoting;Jämtland
 Hundudden;Djurgården
 Isbladskärret;Djurgården
 Johannisbergs våtmark;Västerås
+Kalkbrottet, Uskavi;Västmanland
 Kindla;Närke
 Kista;Järvafältet
 Knuthöjdsmossen;Närke
@@ -104,7 +106,7 @@ Ukta;Pisz, Polen
 Uskavi;Västmanland
 Uttran;Botkyrka
 Utvälinge;Skåne
-Vetlanda;Småland
+Vattenverksdammarna Vetlanda;Småland
 Vombs ängar;Skåne
 Zakopane;Podhale, Polen
 Ågesta;Stockholm
