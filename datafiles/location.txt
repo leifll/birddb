@@ -97,7 +97,6 @@ Tiveden;Tiveden
 Tjulträsk;Ammarnäs, Lappland
 Tomten;Hemma
 Inifrån;Hemma
-Banvallen;Hemma
 Torö;Nynäshamn
 Traneröds mosse;Skåne
 Tyresö slott;Tyresö
@@ -109,4 +108,3 @@ Utvälinge;Skåne
 Vattenverksdammarna Vetlanda;Småland
 Vombs ängar;Skåne
 Zakopane;Podhale, Polen
-Ågesta;Stockholm

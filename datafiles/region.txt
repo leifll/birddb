@@ -24,6 +24,7 @@ Linköping
 Łomża County, Polen
 Närke
 Nora, Västmanland
+Norrtälje
 Nynäshamn
 Öland
 Örebro
@@ -54,5 +55,5 @@ Uskavi, Närke
 Vallentuna
 Vällingby
 Västerås
-Västergötland 
+Västergötland
 Västmanland
