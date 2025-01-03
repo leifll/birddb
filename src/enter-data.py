@@ -57,7 +57,7 @@ try:
                 category = tokens[1][0:-1]
                 cursor.execute("""INSERT INTO species ("name", "category_id") VALUES (%s, 
                                   (SELECT category_id FROM category WHERE "name" = %s))""",
-                                  (species, category,))
+                               (species, category,))
             fill_table('species', cursor, insert_species_row)
 
             @validate_call
@@ -65,6 +65,12 @@ try:
                 date = datetime.datetime.strptime(line[0:-1], '%Y-%m-%d').date()
                 cursor.execute("""INSERT INTO book ("date") VALUES (%s)""", (date,))
             fill_table('book', cursor, insert_book_row)
+
+            @validate_call
+            def insert_observation_type__row(cursor: Any, line: str):
+                cursor.execute("""INSERT INTO observation_type ("observation_type") VALUES (%s)""", 
+                               (line[0:-1],))
+            fill_table('observation_type', cursor, insert_observation_type__row)
 
     connection.close()
 
