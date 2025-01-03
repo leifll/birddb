@@ -11,6 +11,16 @@ CREATE TABLE config (
 ALTER TABLE config ADD PRIMARY KEY (config_id);
 
 --
+-- The "observation_type" table
+--
+CREATE TABLE observation_type (
+  observation_type_id INT GENERATED ALWAYS AS IDENTITY,
+  name VARCHAR(500)
+);
+
+ALTER TABLE observation_type ADD PRIMARY KEY (observation_type_id);
+
+--
 -- The "book" table.
 --
 CREATE TABLE book (
@@ -98,6 +108,7 @@ CREATE TABLE observation (
  location_id INT,
  species_id INT,
  photo_id INT,
+ observation_type_id INT,
  "comment" VARCHAR(2000)
 );
 
@@ -105,3 +116,4 @@ ALTER TABLE observation ADD PRIMARY KEY (observation_id);
 ALTER TABLE observation ADD FOREIGN KEY (location_id) REFERENCES location;
 ALTER TABLE observation ADD FOREIGN KEY (species_id) REFERENCES species;
 ALTER TABLE observation ADD FOREIGN KEY (photo_id) REFERENCES photo ON DELETE SET NULL;
+ALTER TABLE observation ADD FOREIGN KEY (observation_type_id) REFERENCES observation_type;
