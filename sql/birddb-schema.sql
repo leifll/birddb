@@ -108,6 +108,7 @@ CREATE TABLE observation (
  location_id INT,
  species_id INT,
  photo_id INT,
+ quantity INT,
  observation_type_id INT,
  "comment" VARCHAR(2000)
 );
