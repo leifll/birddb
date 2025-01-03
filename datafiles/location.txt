@@ -46,6 +46,7 @@ Kopparberg;Västmanland
 Kvicksund;Västmanland
 Kvismaren;Närke
 Kyrksjön;Åkeshov
+Kärsön;Ekerö
 Landsberga (gårdsbutiken);Enköping
 Ledskär;Uppland
 Löa;Västmanland
