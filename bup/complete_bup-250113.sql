@@ -115,20 +115,6 @@ CREATE TABLE public.location (
 ALTER TABLE public.location OWNER TO postgres;
 
 --
--- Name: location_location_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
---
-
-ALTER TABLE public.location ALTER COLUMN location_id ADD GENERATED ALWAYS AS IDENTITY (
-    SEQUENCE NAME public.location_location_id_seq
-    START WITH 1
-    INCREMENT BY 1
-    NO MINVALUE
-    NO MAXVALUE
-    CACHE 1
-);
-
-
---
 -- Name: observation; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -145,6 +131,64 @@ CREATE TABLE public.observation (
 
 
 ALTER TABLE public.observation OWNER TO postgres;
+
+--
+-- Name: photo; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.photo (
+    photo_id integer NOT NULL,
+    file_path character varying(1000),
+    image_data bytea,
+    "time" timestamp(0) without time zone
+);
+
+
+ALTER TABLE public.photo OWNER TO postgres;
+
+--
+-- Name: species; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.species (
+    species_id integer NOT NULL,
+    name character varying(500) NOT NULL,
+    category_id integer NOT NULL
+);
+
+
+ALTER TABLE public.species OWNER TO postgres;
+
+--
+-- Name: denorm_obs; Type: VIEW; Schema: public; Owner: postgres
+--
+
+CREATE VIEW public.denorm_obs AS
+ SELECT o.date,
+    COALESCE(p.file_path, 'inget foto'::character varying) AS photo,
+    l.name AS location,
+    s.name AS species
+   FROM (((public.observation o
+     JOIN public.location l USING (location_id))
+     JOIN public.species s USING (species_id))
+     LEFT JOIN public.photo p USING (photo_id));
+
+
+ALTER VIEW public.denorm_obs OWNER TO postgres;
+
+--
+-- Name: location_location_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
+--
+
+ALTER TABLE public.location ALTER COLUMN location_id ADD GENERATED ALWAYS AS IDENTITY (
+    SEQUENCE NAME public.location_location_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1
+);
+
 
 --
 -- Name: observation_observation_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
@@ -185,20 +229,6 @@ ALTER TABLE public.observation_type ALTER COLUMN observation_type_id ADD GENERAT
     CACHE 1
 );
 
-
---
--- Name: photo; Type: TABLE; Schema: public; Owner: postgres
---
-
-CREATE TABLE public.photo (
-    photo_id integer NOT NULL,
-    file_path character varying(1000),
-    image_data bytea,
-    "time" timestamp(0) without time zone
-);
-
-
-ALTER TABLE public.photo OWNER TO postgres;
 
 --
 -- Name: photo_photo_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
@@ -252,19 +282,6 @@ ALTER TABLE public.region ALTER COLUMN region_id ADD GENERATED ALWAYS AS IDENTIT
     CACHE 1
 );
 
-
---
--- Name: species; Type: TABLE; Schema: public; Owner: postgres
---
-
-CREATE TABLE public.species (
-    species_id integer NOT NULL,
-    name character varying(500) NOT NULL,
-    category_id integer NOT NULL
-);
-
-
-ALTER TABLE public.species OWNER TO postgres;
 
 --
 -- Name: species_species_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
